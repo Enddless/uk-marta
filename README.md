@@ -25,6 +25,7 @@ resources.html
  
 ## Используемые технологии
 - prettier;
+- html;
 - javascript;
 - препроцессор Scss;
 - php;
