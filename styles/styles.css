@@ -543,7 +543,7 @@ li {
 .about-us {
   padding-top: 100px;
   background-color: var(--color-palette-1);
-  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-hero-green.png) no-repeat;
+  background: url(https://ukmarta.ru/wp-content/uploads/2025/04/bg-hero-green.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -874,7 +874,7 @@ li {
 
 .funds {
   padding-top: 100px;
-  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-funds-green.png) no-repeat;
+  background: url(https://ukmarta.ru/wp-content/uploads/2025/04/bg-funds-green.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom center;
@@ -975,7 +975,7 @@ li {
 
 .docs {
   padding-top: 100px;
-  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-docs-green.png) no-repeat;
+  background: url(https://ukmarta.ru/wp-content/uploads/2025/04/bg-docs-green.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1045,7 +1045,7 @@ li {
   content: "";
   width: 80px; /* Ширина псевдоэлемента */
   height: 80px; /* Высота псевдоэлемента */
-  background-image: url(https://uk-ma.ru/wp-content/uploads/2025/04/Group-34-green.svg);
+  background-image: url(https://ukmarta.ru/wp-content/uploads/2025/04/Group-34-green.svg);
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 0;
@@ -1089,7 +1089,7 @@ li {
 
 .resources {
   padding-top: 100px;
-  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-resources-green.png) no-repeat;
+  background: url(https://ukmarta.ru/wp-content/uploads/2025/04/bg-resources-green.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -1102,7 +1102,7 @@ li {
 
 .contacts {
   padding-top: 100px;
-  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-contacts-green.png) no-repeat;
+  background: url(https://ukmarta.ru/wp-content/uploads/2025/04/bg-contacts-green.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom center;
@@ -1196,14 +1196,14 @@ li {
 
 .messages {
   padding-top: 100px;
-  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-messages-green.png) no-repeat;
+  background: url(https://ukmarta.ru/wp-content/uploads/2025/04/bg-messages-green.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .reports {
   padding-top: 100px;
-  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-reports-green.png) no-repeat;
+  background: url(https://ukmarta.ru/wp-content/uploads/2025/04/bg-reports-green.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom center;
@@ -1227,7 +1227,7 @@ li {
 }
 .page-404__image {
   height: 348px;
-  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/404-error-green.png) no-repeat;
+  background: url(https://ukmarta.ru/wp-content/uploads/2025/04/404-error-green.png) no-repeat;
   background-size: 50% auto;
   background-position: top center;
   width: 100%;
