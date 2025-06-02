@@ -1,0 +1,26 @@
+.docs {
+  padding-top: 100px;
+  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-docs-green.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  &__inner {
+    min-height: calc(100svh - 391px);
+  }
+
+  &__content {
+    &-info {
+      text-align: justify;
+    }
+  }
+  & .documents {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+
+    @include tablet {
+      gap: 20px;
+    }
+  }
+}

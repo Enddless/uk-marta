@@ -1,0 +1,27 @@
+.button {
+  @include reset-button;
+
+  border-radius: var(--border-radius-small);
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+  padding: 11px 32px;
+  justify-content: center;
+  height: 52px;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+
+  background: var(--background-button-gradient);
+  background-size: 200% 200%;
+  background-position: 10% 100%;
+  transition: background-position 0.5s ease;
+
+  color: var(--light);
+  border: none;
+
+  @include hover {
+    background-position: 90% 100%;
+  }
+}

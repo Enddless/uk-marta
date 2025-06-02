@@ -1,0 +1,78 @@
+.contacts {
+  padding-top: 100px;
+  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-contacts-green.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @include tablet {
+      gap: 20px;
+    }
+  }
+  &__address {
+    font-style: normal;
+    text-align: justify;
+    gap: 30px;
+
+    @include tablet {
+      gap: 20px;
+    }
+
+    &-item {
+      padding: 20px;
+      grid-column: span 4;
+      background: var(--background-contacts-card-gradient);
+      color: var(--color-contacts-card);
+      box-shadow: var(--box-shadow);
+      border: 1px solid var(--color-palette-3);
+      border-bottom: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      backdrop-filter: blur(4px);
+      border-radius: var(--border-radius-big);
+
+      &:nth-child(1) {
+        @include tablet {
+          grid-column: span 12;
+        }
+      }
+
+      @include tablet {
+        grid-column: span 6;
+      }
+
+      @include mobile {
+        padding: 10px;
+      }
+
+      @include mobile-s {
+        grid-column: span 12;
+      }
+
+      &-image {
+        flex-shrink: 0;
+      }
+      & svg circle {
+        --currentColor: var(--color-palette-1);
+        fill: var(--currentColor);
+      }
+
+      & svg path {
+        --currentColor: var(--color-palette-1);
+        fill: var(--currentColor);
+      }
+    }
+  }
+  &__map {
+    border-radius: var(--border-radius-big);
+    border: 1px solid var(--color-palette-3);
+    overflow: hidden;
+  }
+}

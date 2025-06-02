@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'normalize', 'mixins', 'media', 'variables', 'utils', 'globals';
+
+@import 'blocks/button', 'blocks/burger-button', 'blocks/grid', 'blocks/header', 'blocks/about-us',
+  'blocks/about-us-card', 'blocks/footer', 'blocks/mobile-overlay', 'blocks/cross-button', 'blocks/collapse';
+@import 'blocks/funds', 'blocks/docs', 'blocks/document-card', 'blocks/resources', 'blocks/contacts',
+  'blocks/messages', 'blocks/reports', 'blocks/404';

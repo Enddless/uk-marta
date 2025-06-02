@@ -1,0 +1,57 @@
+:root {
+  --dark: #242f44;
+  --light: #fff;
+
+  --box-shadow: 4px 4px 8px 1px rgba(34, 60, 80, 0.2);
+
+  --border-radius-mini: 5px;
+  --border-radius-small: 20px;
+  --border-radius-big: 36px;
+
+  --transition-duration: 0.3s;
+
+  --container-width: 1312px;
+  --container-padding-x: 20px;
+  --container-padding-y: 80px;
+  --font-family: 'Roboto', sans-serif;
+
+  --bg-body: #fdfdfd;
+  --box-shadow-header: 0 0px 30px 0 rgba(33, 131, 128, 0.3);
+
+  --color-palette-1: #fbfbfb;
+  --color-palette-2: rgb(57, 175, 171);
+  --color-palette-3: #218380;
+  --color-palette-4: #777777;
+  --color-palette-5: #6cb1ae;
+
+  --color-card: rgba(255, 255, 255, 0.6);
+
+  --color-contacts-card: #fff;
+
+  // --background-docs-gradient: linear-gradient(180deg, rgb(254, 255, 255), rgb(251, 251, 251));
+  --background-footer-gradient: linear-gradient(0deg, rgb(33, 131, 128), rgb(59, 163, 160));
+  --background-contacts-card-gradient: linear-gradient(0deg, rgb(33, 131, 128), rgb(59, 163, 160));
+  --background-button-gradient: linear-gradient(45deg, rgb(33, 131, 128) 43%, rgb(107, 209, 206));
+}
+// :root[data-color-scheme='blue'] {
+//   --bg-body: #f9fbfb;
+//   --box-shadow-header: 0 0px 30px 0 rgba(90, 147, 202, 0.3);
+
+//   --color-palette-1: #fbfbfb;
+//   --color-palette-2: #75ade2;
+//   --color-palette-3: #5a93ca;
+//   --color-palette-4: #777777;
+//   --color-palette-5: #cde2f1;
+
+//   --color-card: rgba(255, 255, 255, 0.6);
+//   --color-contacts-card: #242f44;
+
+//   // --background-docs-gradient: linear-gradient(180deg, rgb(254, 255, 255), rgb(251, 251, 251));
+//   --background-footer-gradient: linear-gradient(0deg, rgb(117, 173, 226), rgb(90, 147, 202));
+//   --background-contacts-card-gradient: linear-gradient(
+//     45deg,
+//     rgba(243, 239, 248, 0.3) 7%,
+//     rgba(221, 235, 247, 0.4)
+//   );
+//   --background-button-gradient: linear-gradient(45deg, rgb(90, 147, 202) 43%, rgb(163, 195, 226));
+// }

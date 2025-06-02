@@ -1,0 +1,74 @@
+.funds {
+  padding-top: 100px;
+  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-funds-green.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+
+  &__content-info {
+    text-align: justify;
+  }
+  &-title {
+    text-align: justify;
+  }
+
+  &__list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @include tablet {
+      gap: 20px;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    box-shadow: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px dashed var(--color-palette-3);
+
+    background: var(--color-card);
+    backdrop-filter: blur(3px);
+    border-radius: var(--border-radius-big);
+
+    @include hover {
+      border: 1px solid var(--color-palette-3);
+      transition: border var(-transition-duration) ease-in-out;
+    }
+
+    &-image {
+      width: 150px;
+      padding-block: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      @include mobile {
+        width: 50px;
+      }
+      @include mobile-s {
+        display: none;
+      }
+      & svg circle {
+        --currentColor: var(--color-palette-5);
+        fill: var(--currentColor);
+      }
+
+      & svg path {
+        --currentColor: var(--color-palette-3);
+        fill: var(--currentColor);
+      }
+    }
+    &-collapse {
+      width: 100%;
+      position: relative;
+    }
+  }
+}
+.funds__item:has(.active) .collapse__icon:after {
+  content: '-';
+}

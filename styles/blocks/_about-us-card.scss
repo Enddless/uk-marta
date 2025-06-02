@@ -1,0 +1,53 @@
+.about-us-card {
+  border-radius: var(--border-radius-small);
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--color-card);
+
+  backdrop-filter: blur(10px);
+  border-radius: var(--border-radius-big);
+  font-size: 20px;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  &__image {
+    flex-shrink: 0;
+  }
+
+  & svg circle {
+    --currentColor: var(--color-palette-5);
+    fill: var(--currentColor);
+  }
+
+  & svg path {
+    --currentColor: var(--color-palette-3);
+    fill: var(--currentColor);
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    &-link {
+      color: var(--color-palette-2);
+
+      @include hover {
+        color: var(--color-palette-3);
+      }
+    }
+  }
+}

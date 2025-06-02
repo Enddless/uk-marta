@@ -1,0 +1,43 @@
+.about-us {
+  padding-top: 100px;
+  background-color: var(--color-palette-1);
+  background: url(https://uk-ma.ru/wp-content/uploads/2025/04/bg-hero-green.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  &__list {
+    gap: 30px;
+
+    @include tablet {
+      gap: 20px;
+    }
+  }
+  &__item {
+    box-shadow: var(--box-shadow);
+    position: relative;
+    grid-column: span 6;
+
+    &:nth-child(3),
+    &:nth-child(6) {
+      grid-column: span 7;
+
+      @include tablet {
+        grid-column: span 12;
+      }
+    }
+
+    &:nth-child(4),
+    &:nth-child(5) {
+      grid-column: span 5;
+
+      @include tablet {
+        grid-column: span 12;
+      }
+    }
+
+    @include mobile {
+      grid-column: span 12;
+    }
+  }
+}

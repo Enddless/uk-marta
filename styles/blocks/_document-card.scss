@@ -1,0 +1,69 @@
+.document {
+  grid-column: span 6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-height: 95px;
+
+  // background: var(--color-palette-1);
+  box-shadow: none;
+  padding: 20px;
+  padding-left: 100px;
+  cursor: pointer;
+  border: 1px solid var(--color-palette-2);
+  box-shadow: var(--box-shadow);
+  font-size: 14px;
+  text-align: justify;
+  position: relative;
+  background: var(--color-card);
+  backdrop-filter: blur(4px);
+  border-radius: var(--border-radius-big);
+  overflow: hidden;
+
+  @include mobile {
+    padding-left: 20px;
+    padding-top: 100px;
+    grid-column: span 12;
+  }
+
+  &::before {
+    position: absolute;
+    left: 10px;
+    content: '';
+    width: 80px; /* Ширина псевдоэлемента */
+    height: 80px; /* Высота псевдоэлемента */
+    background-image: url(https://uk-ma.ru/wp-content/uploads/2025/04/Group-34-green.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+
+    @include mobile {
+      left: 50%;
+      top: 5px;
+      transform: translate(-50%, 5px);
+    }
+  }
+
+  &:nth-child(5),
+  &:nth-child(6),
+  &:nth-child(7) {
+    grid-column: span 4;
+
+    @include tablet {
+      grid-column: span 6;
+    }
+    @include mobile {
+      grid-column: span 12;
+    }
+  }
+
+  & a {
+    @include fluid-text(18, 16);
+    font-weight: 400;
+
+    @include hover {
+      color: var(--color-palette-3);
+    }
+  }
+}
